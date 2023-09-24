@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "synapses001"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "defaultDataLakeStorageAccountName": {
+            "value": "testetrupinderjitsa"
+        },
+        "defaultDataLakeStorageFilesystemName": {
+            "value": "test001"
+        },
+        "sqlAdministratorLogin": {
+            "value": "sqladminuser"
+        },
+        "sqlAdministratorLoginPassword": {
+            "value": null
+        },
+        "setWorkspaceIdentityRbacOnStorageAccount": {
+            "value": false
+        },
+        "createManagedPrivateEndpoint": {
+            "value": true
+        },
+        "defaultAdlsGen2AccountResourceId": {
+            "value": "/subscriptions/d828ebdb-3652-4a5a-a546-3fce0b2aa960/resourceGroups/BCCSS-M-DEV-RG-MGT/providers/Microsoft.Storage/storageAccounts/testetrupinderjitsa"
+        },
+        "azureADOnlyAuthentication": {
+            "value": false
+        },
+        "allowAllConnections": {
+            "value": true
+        },
+        "managedVirtualNetwork": {
+            "value": "default"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "publicNetworkAccess": {
+            "value": "Enabled"
+        },
+        "storageSubscriptionID": {
+            "value": "d828ebdb-3652-4a5a-a546-3fce0b2aa960"
+        },
+        "storageResourceGroupName": {
+            "value": "BCCSS-M-DEV-RG-MGT"
+        },
+        "storageLocation": {
+            "value": "canadacentral"
+        },
+        "storageRoleUniqueId": {
+            "value": "2db22b40-a4d4-460f-9d54-dda09dc24012"
+        },
+        "isNewStorageAccount": {
+            "value": false
+        },
+        "isNewFileSystemOnly": {
+            "value": true
+        },
+        "adlaResourceId": {
+            "value": ""
+        },
+        "managedResourceGroupName": {
+            "value": ""
+        },
+        "storageAccessTier": {
+            "value": "Hot"
+        },
+        "storageAccountType": {
+            "value": "Standard_RAGRS"
+        },
+        "storageSupportsHttpsTrafficOnly": {
+            "value": true
+        },
+        "storageKind": {
+            "value": "StorageV2"
+        },
+        "minimumTlsVersion": {
+            "value": "TLS1_2"
+        },
+        "storageIsHnsEnabled": {
+            "value": true
+        },
+        "userObjectId": {
+            "value": "2e1def39-74e8-4332-8697-3d60633af73c"
+        },
+        "setSbdcRbacOnStorageAccount": {
+            "value": false
+        },
+        "setWorkspaceMsiByPassOnStorageAccount": {
+            "value": false
+        },
+        "workspaceStorageAccountProperties": {
+            "value": {}
+        },
+        "managedVirtualNetworkSettings": {
+            "value": {
+                "allowedAadTenantIdsForLinking": [],
+                "preventDataExfiltration": false
+            }
+        }
+    }
+}
