@@ -42,7 +42,7 @@
             "value": {}
         },
         "publicNetworkAccess": {
-            "value": "Enabled"
+            "value": "disabled"
         },
         "storageSubscriptionID": {
             "value": "d828ebdb-3652-4a5a-a546-3fce0b2aa960"
