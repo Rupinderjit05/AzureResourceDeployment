@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workspaceName": {
+            "value": "databricks001"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "tier": {
+            "value": "premium"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "enableNoPublicIp": {
+            "value": true
+        },
+        "vnetName": {
+            "value": "DF-vnet-01"
+        },
+        "vnetRG": {
+            "value": "DA-VNET-rg01"
+        },
+        "vnetId": {
+            "value": "/subscriptions/43dc2732-4f7f-4ec6-ac0b-1e43aab297bb/resourceGroups/DA-VNET-rg01/providers/Microsoft.Network/virtualNetworks/DF-vnet-01"
+        },
+        "publicSubnetName": {
+            "value": "public-subnet"
+        },
+        "publicSubnetCIDR": {
+            "value": "120.10.3.0/26"
+        },
+        "privateSubnetName": {
+            "value": "private-subnet"
+        },
+        "privateSubnetCIDR": {
+            "value": "120.10.4.0/26"
+        }
+    }
+}
